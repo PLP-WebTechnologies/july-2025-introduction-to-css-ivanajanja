@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styling */
+.site-header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.site-header h1 {
+  margin: 0 0 10px;
+}
+
+/* Navigation styles */
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.main-nav a {
+  color: #cce6ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content sections */
+.content-section {
+  background-color: white;
+  margin: 0 40px 30px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Card section to highlight box model */
+.card {
+  background-color: #e6f0ff;
+  margin: 20px 40px;
+  padding: 30px;
+  border: 3px solid #0073e6;
+  border-radius: 10px;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  border: 2px solid #0073e6;
+  background-color: white;
+  color: #0073e6;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0073e6;
+  color: white;
+}
+
+/* Footer styling */
+.site-footer {
+  text-align: center;
+  padding: 20px 40px;
+  background-color: #004080;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Link in footer */
+.site-footer a {
+  color: #cce6ff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
